@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: rgba(205, 204, 202, 0.806);
+    position: sticky;
+    z-index: 50;
+    top: 0;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 1rem;
+}
+
+header ul{
+    display: flex;
+    gap: 1rem; 
+}
+header ul li{
+    list-style-type: none;
+
+}
+header a{
+    text-decoration: none;
+    font-weight: 700;
+    color: blue;
+    transition: color 0.3s. ease-in-out
+}
+header a:hover{
+    text-decoration: underline;
+    color: brown;
+}
+header h1{
+    font-size: 1.3rem;
+}
+
+.courses{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+.courses-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem;
+    gap: 1.5rem;
+}
+
+.content div{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    gap: 10px;
+}
+.content div:hover{
+    background-color: brown;
+}
+
+.content div p{
+    font-size: 0.95rem;
+}
+.content div a{
+    text-decoration: none;
+    
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    align-self: flex-start;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+}
+
+.content div:hover p,
+.content div:hover h3{
+    color: white;
+    
+} 
+
+.box4{
+    border: 2px solid black;
+    display: flex;
+    width: 100%;
+    /* max-width: 80px; */
+    height: 200px;
+    gap: 2rem;
+}
+
+.box4 div{
+   width: 10rem;
+   height: 10rem;
+   background-color: blue;
+   color: white;
+   /* flex-shrink: 0; */
+   gap: 16px;
+}

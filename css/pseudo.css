@@ -1,0 +1,115 @@
+*{
+    margin:  0;
+    padding: 0;
+}
+
+h1{
+    color: blue;
+    text-decoration: underline;
+}
+
+h1:hover{
+    color: brown;
+    text-decoration: none;
+    
+}
+button{
+    background-color: yellow;
+    border: 1px solid black;
+    transition: all 0.5s ease-in-out;
+    padding: 0.3rem 2rem;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+
+}
+
+button:hover{
+    background-color: blue;
+    color: white;
+    cursor: no-drop;
+    /* scale: 1.4; */
+    /* transform: translateX(12px); */
+
+}
+button:active{
+    /* transform: translateX(12px); */
+    background-color: brown;
+}
+
+
+input{
+    display:block;
+    margin: 1rem 0;
+    height: 1.5rem;
+    padding: 0 5px;
+    font-size: 14px;
+    outline: 0;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+input:focus{
+    border-color: blue;
+}
+input::placeholder{
+    color: brown;
+}
+
+ul li:first-child{
+    color: brown;
+}
+ul li:last-child{
+    color: blue;
+}
+
+.box2 a:nth-child(7){
+    color: green;
+
+}
+.box2 h2:nth-child(1){
+    color: brown;
+}
+
+.mylist ol li:nth-child(odd){
+    color: aqua;
+}
+/* pseudo element */
+
+.mylist ol li:nth-child(2)::after{
+    content: " is a fruit";
+}
+
+.box3 p::before{
+    content: Trying pseudo;
+
+}
+.box3 p::after{
+    content: " last sentence";
+    color: blue;
+
+}
+.box3 p::first-letter{
+    font-size: 40px;
+}
+
+#food::before{
+    content: " this is ";
+    color: red;
+}
+.box3{
+    border: 1px solid black;
+    padding: 32px 16px;
+    position: relative;
+    background-image:url(../html/video/image/teachustle_img.jpg) ;
+    background-position: center;
+    background-size: contain;
+}
+
+p.sentence::first-line{
+    color: red;
+    text-decoration: underline;
+}
+input.input-text::placeholder{
+    color: green;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <br>
+
+            <label for="">fullname</label>
+            <input 
+                type="text" 
+                id="fullname" 
+                placeholder="first name"
+                required
+                minlength="5"
+                maxlength="20"
+            >
+            <br>
+            <label for="email">Email</label>
+            <input 
+                type="email" 
+                placeholder="jon@example.com" 
+                id="email"
+            >
+            <br>
+            <label for="password">Password:</label>
+            <input 
+                type="password" 
+                placeholder="Enter your password"
+                id="password"
+            >
+        </fieldset>
+
+        <label for="skill">Tools youn work with</label>
+        <br>
+        <input type="checkbox" name="skills" id="ski">
+        <label for="ski">HTML</label>
+        <input type="checkbox" name="skills" id="css" checked>
+        <label for="css">CSS</label>
+        <input type="checkbox" name="skills" id="jv">
+        <label for="jv">JAVA SCRIPT</label>
+        <br><br>
+
+        <label for="comm">Comment</label>
+        <textarea name="cooment" id="comm" placeholder="your comments...." rows="5" cols="40"></textarea>
+        <br><br>
+        <!-- modern approach -->
+        <button type="submit">
+            Submit
+        </button>
+    
+        <button type="reset">
+            Reset
+        </button>
+        <br>
+
+        <!-- old approach -->
+
+        <input type="button" value="Click Here">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+
+    <!-- add required to the input to tell require it -->
+    <!-- min / max to tell the minimum of numbers you want -->
+    <!-- minlenght and maxlenght to tell the minimum and maximum of letters in the input -->
+</body>
+</html>

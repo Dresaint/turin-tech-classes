@@ -1,0 +1,16 @@
+/* a{
+    display: block;
+}
+
+p,div,section{
+    display: inline;
+} */
+
+span{
+    width: 100%;
+    background-color: yellow;
+    display: inline-block;
+}
+a{
+    display: none;
+}

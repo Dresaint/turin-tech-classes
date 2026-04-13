@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: fit-content;
+    border: 3px solid red;
+    padding: 30px 40px 50px 60px;
+    margin: 40px 50px 40px 60px;
+}

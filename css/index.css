@@ -1,0 +1,11 @@
+.intro{
+    color: blue;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+.boss p{
+    color: chartreuse;
+    font-weight: 900;
+    font-size: 2rem;
+}

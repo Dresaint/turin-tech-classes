@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form & Input Element</title>
+</head>
+<body>
+    <form>
+        <label for="">fullname</label>
+        <input 
+            type="text" 
+            id="fullname" 
+            placeholder="first name"
+        >
+        <br>
+        <label for="email">Email</label>
+        <input 
+            type="email" 
+            placeholder="jon@example.com" 
+            id="email"
+        >
+        <br>
+        <label for="password">Password:</label>
+        <input 
+            type="password" 
+            placeholder="Enter your password"
+            id="password"
+        >
+        <br>
+        <label for="age">Age:</label>
+        <input 
+            type="number"
+            placeholder="Enter your age"
+            id="age"
+        >
+        <br>
+        <label for="dob">DOB:</label>
+        <input 
+            type="date"
+            id="dob"
+        >    
+
+        <br>
+        <label for="datetime">Choose:</label>
+        <input 
+            type="datetime-local"
+            id="datetime"
+        >
+
+        <br>
+        <label for="framework">Preffered framework:</label>
+        <select id="framework">
+            <option value="">Select</option>
+            <option value="reactr">react</option>
+            <option value="vue" selected>vue</option>
+            <option value="angular">angular</option>
+            <option value="java">java</option>
+
+        </select>
+
+        <br>
+
+        <label>Gender</label> <br>
+        <input 
+            type="radio"
+            name="gender"
+            id="male"
+        >
+
+        <label for="male">Male</label>
+
+        <input 
+            type="radio"
+            name="gender"
+            id="female"
+        >
+        <label for="female">Female</label>
+
+        <label>
+            <input type="radio" name="gender">
+            Other
+        </label>
+        <br>
+
+        <label for="skills">Technical Skills</label>
+        <br>
+        <input 
+            type="checkbox"
+            name="skills"
+            id="html"
+        >
+        <label for="html">HTML</label>
+
+        <input 
+            type="checkbox"
+            name="skills"
+            id="css"
+        >
+        <label for="css">CSS</label>
+
+        <!-- alternate approach -->
+         <label>
+            <input type="checkbox" name="skills" id="react">
+            React
+         </label>
+         <br>
+         <label for="url">Github Profile</label>
+         <input 
+            type="url"
+            id="url"
+            name="github"
+            placeholder="enter your github profile"
+         >
+         <br>
+         <label for="search">Search</label>
+         <input type="search" name="user-search" id="search" placeholder="search.....">
+         <br>
+
+         <label for="color">Preffered Color</label>
+         <input type="color" name="preffered-colour" id="color">
+         <br>
+
+         <label for="phone">Phone Number</label>
+         <input type="phone" name="phone-number" id="phone" placeholder="+234567890" required min="11" max="13">
+         <br>
+
+         <label for="rating">Rate your skils</label>
+         <input type="range" name="skill" id="rating" min="1" max="10">
+         <br>
+
+         <label for="cv">Upload CV</label>
+
+         <input type="file" name="cv" id="id" accept=".pdf,.doc,.docx">
+
+
+
+
+    </form>
+    
+</body>
+</html>

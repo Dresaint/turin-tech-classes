@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .btn1{
+    background-color: blue;
+    color: white;
+    padding: 0.6rem 3rem;
+    cursor: pointer;
+    transform: skew(-10deg);
+    transition: all 0.9s ease-in-out;
+    
+
+}
+
+.btn1:hover{
+background-color: gold;
+color: black;
+transform: rotate(10deg);
+}
+
+
+
+
+1. change to circle
+2. make bounce
+3. move horizontal
+4.  make square and rotate 360
+ */
+
+
+
+
+.loader{
+    border: 1px solid black;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    border-top: 3px solid black;
+    animation: loading 1s ease-in-out 2s infinite;
+
+
+}
+
+@keyframes loading {    
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+

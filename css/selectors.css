@@ -1,0 +1,49 @@
+/* universal selector */
+*{
+    background-color: antiquewhite;
+}
+
+/* Element Selector */
+h2{
+    color: blue;
+}
+/* Class selector */
+.text{
+    color: gold;
+}
+/* id selector */
+#text{
+    color: red;
+}
+/* decendant selector */
+.intro p{
+    color: chartreuse;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+/* group selector */
+p, a, span{
+    color: aqua;
+}
+
+/* group selector */
+.action p,
+.action a,
+.action span{
+    color: blueviolet;
+    font-weight: 800px;
+    font-size: 20px;
+}
+/* direct child selector */
+
+.container > h2{
+    color: green;
+    font-weight: 600px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container > *{
+    color: purple;
+}
+

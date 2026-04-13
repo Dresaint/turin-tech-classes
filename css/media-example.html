@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="media-example.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo" >
+                <span>T</span>
+                <span>T-Tech</span>
+            </div>
+
+            <ul class="desktop-nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li>
+                    <a href="#">Programs</a>
+
+                    <ul>
+                        <li><a href="#">Frontend</a></li>
+                        <li><a href="#">Backend</a></li>
+                        <li><a href="#">Fullstack</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <a href="#">Get Started</a>
+
+            <!-- mobile -->
+            <div class="mobile">
+                <button>
+                     <i class="fa-solid fa-bars"></i>
+                </button>
+
+                <!-- mobile dropdown -->
+                <ul class="mobile-dropdown">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Programs</a></li>
+                    <li> <a href="#">Get Started</a> </li>
+                    
+                </ul>
+                
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to Ttech</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, ducimus.</p>
+            <div class="overlay">
+
+            </div>
+        </section>
+        <section class="features">
+            <div class="features-intro">
+                <h2>features</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            </div>
+            <div class="features-content">
+               <article>
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, voluptatem enim. Itaque laudantium porro debitis?
+                    </p>
+                    <a href="#">Learn More</a>
+                </article>
+                
+               <article>
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, voluptatem enim. Itaque laudantium porro debitis?
+                    </p>
+                    <a href="#">Learn More</a>
+                </article>
+                
+               <article>
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, voluptatem enim. Itaque laudantium porro debitis?
+                    </p>
+                    <a href="#">Learn More</a>
+                </article>
+                
+            </div>
+
+        </section>
+        <section class="pricing">
+            <div class="pricing-intro">
+                <h2>pricing</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+            </div>
+            <div class="pricing-content">
+                <article>
+                    <h3>starter</h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, sequi?
+                    </p>
+                    <p>$100</p>
+                    <a href="#">Start Here</a>
+                </article>
+                <article>
+                    <h3>professional</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, ipsam.
+                    </p>
+                    <p>$100</p>
+                    <a href="#">Start Here</a>
+                </article>
+                <article>
+                    <h3>premium</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, dicta.
+                    </p>
+                    <p>$100</p>
+                    <a href="#">Start Here</a>
+                </article>
+            </div>
+        </section>
+        <section class="contact"> 
+            <div class="contact-intro">
+                <h2>Contact Us</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <form>
+                <div class="first-last">
+                    <div>
+                        <label for="first_name">First Name</label>
+                        <input type="text" id="first_name"
+                        placeholder="Enter Your Firstname">
+                     </div>
+                     <div>
+                        <label for="last_name">Last name</label>
+                        <input type="text" id="last_name"
+                        placeholder="Enter Your Last name">
+                    </div>
+
+                </div>
+                <div class="email-course">
+                   <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email"
+                        placeholder="example@email.com">
+                   </div>
+                   <div>
+                    <label for="course">Course</label>
+
+                    <select id="">
+                        <option value="frontend">Frontend</option>
+                        <option value="backend">Backend</option>
+                        <option value="fullstack">Fullstack</option>
+                    </select>
+                   </div>
+                </div>
+                <div class="comment">
+                    <label for="comment">Comment</label>
+                    <textarea id="comment" placeholder="Enter Your Message"></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <footer>
+            &copy;  All Right Reserved
+        </footer>
+    </main>
+</body>
+</html> 
