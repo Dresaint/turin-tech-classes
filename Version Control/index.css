@@ -12,3 +12,8 @@ header{
     background-color: gold;
     color: black;
 }
+
+.hero{
+    background-color: grey;
+    min-height: 50vh;
+}
