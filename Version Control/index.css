@@ -19,7 +19,10 @@ header{
 }
 
 .features{
-    background-color: gold;
+    background-color: red;
     color: black;
-    min-height: 50vh
+    
+}
+.contact{
+    background-color: green;
 }
