@@ -17,3 +17,9 @@ header{
     background-color: grey;
     min-height: 50vh;
 }
+
+.features{
+    background-color: gold;
+    color: black;
+    min-height: 50vh
+}
