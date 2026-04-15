@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blue;
+    color: white;
+}
+header{
+    background-color: gold;
+    color: black;
+}
+
+.hero{
+    background-color: grey;
+    min-height: 50vh;
+}
+
+.features{
+    background-color: red;
+    color: black;
+    
+}
+.contact{
+    background-color: green;
+}
+footer{
+    background-color: cornflowerblue;
+    padding: 4rem 0;
+}
