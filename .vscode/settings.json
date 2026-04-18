@@ -1,3 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "/revision/revision.html"
+    "livePreview.defaultPreviewPath": "/revision/revision.html",
+    "liveServer.settings.port": 5501
 }

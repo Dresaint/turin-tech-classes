@@ -25,5 +25,6 @@
 
         CLONNING
     To clone a specific branch on GitHub is:
+    git clone "url"
     
 
