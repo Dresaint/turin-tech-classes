@@ -40,6 +40,9 @@
         TO CLONE A SPECIFIC BRANCH ON GITHUB:
     git clone -b branch-name --single-branch repo-url
 
+        IF YOU WANT VTO PULL FROM ANOTHER BRANCH APART FROM MAIN :
+        git pull origin "branch-name"
+
     
     
 
