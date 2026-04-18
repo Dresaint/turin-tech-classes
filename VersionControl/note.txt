@@ -43,6 +43,12 @@
         IF YOU WANT TO PULL FROM ANOTHER BRANCH APART FROM MAIN :
         git pull origin "branch-name"
 
+        HOW TO GET A LIVE URL ON GITHUB:
+    1. go to settings on your projects
+    2. click on pages
+    2. under branch, change the none to main and save it
+    3. reload it till your live url comes up
+
     
     
 
