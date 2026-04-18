@@ -20,11 +20,23 @@
 7. push = git push origin branch-name
 8. send a pull request as the team lead and merge
 
+        AS THE TEAM LEAD:
+1.  click on merge.  pull request
+2.  click on confirm merge
+3. delete the branch
+
+        YOU AS A COLLABORATOR:
+1. you enter youe main branch
+2. git pull to pull the latest changes
+3. safely delete the branch that hasbeen merge
+
         TO DFELETE A BRANCH
     branch -d branch-name
 
         CLONNING
     To clone a specific branch on GitHub is:
     git clone "url"
+
+    
     
 
