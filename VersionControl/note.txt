@@ -37,6 +37,9 @@
     To clone a specific branch on GitHub is:
     git clone "url"
 
+        TO CLONE A SPECIFIC BRANCH ON GITHUB:
+    git clone -b branch-name --single-branch repo-url
+
     
     
 
