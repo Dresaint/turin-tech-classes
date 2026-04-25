@@ -6,7 +6,10 @@
 3. commit:
     git commit -m "first commit"
 
-4. push:
+4. link to your github repo
+        git remote add origin https://github.com/Dresaint/css-project-portfolio.git
+5. push:
+    git branch -M main
     git push -u origin main
 
         BRANCH
