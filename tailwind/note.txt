@@ -7,9 +7,9 @@ STEPS IN USING TAILWINDCSS
 - click on Tailwind CLI
 - Follow these steps:
     * npm install tailwindcss @tailwindcss/cli
-    * create a css folder and input.css file inside of the folder 
+    * create a css folder and create input.css file inside of the folder 
     * paste this code inside the input.css = @import "tailwindcss";
-    * run - npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+    * run - npx @tailwindcss/cli -i ./css/input.css -o ./css/output.css --watch
     * link your css folder/file to all the html files
         example:
          <link rel="stylesheet" href="./css/output.css">
