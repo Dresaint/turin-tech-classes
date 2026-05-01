@@ -20,5 +20,5 @@ STEPS IN USING TAILWINDCSS
             "build-css": "npx @tailwindcss/cli -i ./css/input.css -o ./css/output.css --watch"
         },
 
-    * you can always run the tailwind with build-css on yout terminal whenever the server is been stopped
+    * you can always run the tailwind with npm run build-css on yout terminal whenever the server is been stopped
         
