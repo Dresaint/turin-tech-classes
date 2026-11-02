@@ -1,7 +1,7 @@
 STEPS IN USING TAILWINDCSS
 - make sure you have node js install on your vs code
 - node -v (to confirm)
-- npm int -y ( to )
+- npm init -y ( to )
 - visit tailwindcss.com
 -click on Docs
 - click on Tailwind CLI
